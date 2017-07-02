@@ -1,0 +1,39 @@
+{
+  "ids": {
+    "User": 3,
+    "AccessToken": 3,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "Product": 7,
+    "Category": 6
+  },
+  "models": {
+    "User": {
+      "1": "{\"password\":\"$2a$10$yxm/hYgbsFrHOSa4uPXrweQOcPkRvR2Wc5FvdN2HEC9eA4lDNQYme\",\"email\":\"admin@admin.com\",\"id\":1}",
+      "2": "{\"password\":\"$2a$10$1dTC8YNAjZRWCK8KXh5dm.Ni97XvmP7Cl42gnBsJ.qMwmvf3Xv8t.\",\"email\":\"admin@example.com\",\"id\":2}"
+    },
+    "AccessToken": {
+      "HMiEpBPRRl7LmSJqFyyUIevBvyDj1qDnGK3r5VSGbeCxiVDEKlVEOVChAVBFqzZ6": "{\"id\":\"HMiEpBPRRl7LmSJqFyyUIevBvyDj1qDnGK3r5VSGbeCxiVDEKlVEOVChAVBFqzZ6\",\"ttl\":1209600,\"created\":\"2017-07-02T16:29:11.376Z\",\"userId\":1}",
+      "s3cr3t": "{\"id\":\"s3cr3t\",\"userId\":2}"
+    },
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "Product": {
+      "1": "{\"name\":\"product B\",\"price\":250,\"id\":1}",
+      "2": "{\"name\":\"my product A\",\"price\":10,\"categoryId\":1,\"id\":2}",
+      "3": "{\"name\":\"my product B\",\"price\":10,\"categoryId\":2,\"id\":3}",
+      "4": "{\"name\":\"my product C\",\"price\":120,\"categoryId\":2,\"id\":4}",
+      "5": "{\"name\":\"123\",\"price\":100,\"categoryId\":1,\"id\":5}",
+      "6": "{\"name\":\"1234\",\"price\":100,\"categoryId\":1,\"id\":6}"
+    },
+    "Category": {
+      "1": "{\"name\":\"category 1\",\"id\":1}",
+      "2": "{\"name\":\"category 2\",\"id\":2}",
+      "3": "{\"name\":\"string\",\"id\":3}",
+      "4": "{\"name\":\"string\",\"id\":4}",
+      "5": "{\"name\":\"string\",\"id\":5}"
+    }
+  }
+}
